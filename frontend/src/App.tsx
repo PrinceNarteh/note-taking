@@ -1,9 +1,10 @@
 import React from "react";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
-      <h1>Note Taking Application</h1>
+    <div>
+      <Layout />
     </div>
   );
 }
